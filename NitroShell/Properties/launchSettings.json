@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NitroShell (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NitroShell (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
