@@ -13,21 +13,19 @@
         <MicaBackdrop />
     </Window.SystemBackdrop>
 
-    <Grid Background="Black">
+  <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <!-- Output area -->
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto">
             <TextBlock x:ConnectionId='3' x:Name="OutputBox"
-                       Foreground="Lime"
+                       Foreground="#FC4850"
                        FontFamily="Consolas"
                        TextWrapping="Wrap"/>
         </ScrollViewer>
 
-        <!-- Input area -->
         <TextBox x:ConnectionId='2' x:Name="InputBox"
                  Grid.Row="1"
                  Background="Black"
@@ -35,5 +33,7 @@
                  FontFamily="Consolas"
                                            />
     </Grid>
+
+
 </Window>
 

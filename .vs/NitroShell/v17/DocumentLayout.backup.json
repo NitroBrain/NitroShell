@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\",
+  "WorkspaceRootPath": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell\\nitroshell\\nitroshell\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|solutionrelative:nitroshell\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell\\nitroshell\\nitroshell\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell1\\nitroshell\\nitroshell\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|solutionrelative:nitroshell\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell\\nitroshell\\nitroshell\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|solutionrelative:nitroshell\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell1\\nitroshell\\nitroshell\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|solutionrelative:nitroshell\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell\\nitroshell\\nitroshell\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell1\\nitroshell\\nitroshell\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|solutionrelative:nitroshell\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|d:\\usmonov shohruxmirozs projects\\c#\\projects\\nitroshell1\\nitroshell\\nitroshell\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{348CF8C2-5A50-48BC-9420-1AD941C97F65}|NitroShell\\NitroShell.csproj|solutionrelative:nitroshell\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,52 +70,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\App.xaml.cs",
+              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\App.xaml.cs",
               "RelativeDocumentMoniker": "NitroShell\\App.xaml.cs",
-              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\App.xaml.cs",
+              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\App.xaml.cs",
               "RelativeToolTip": "NitroShell\\App.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADwvxUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T15:14:20.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T15:14:20.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\App.xaml",
+              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\App.xaml",
               "RelativeDocumentMoniker": "NitroShell\\App.xaml",
-              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\App.xaml",
+              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\App.xaml",
               "RelativeToolTip": "NitroShell\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-15T15:14:09.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T15:14:09.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "NitroShell\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\MainWindow.xaml.cs",
               "RelativeToolTip": "NitroShell\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAwwAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T14:57:41.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\MainWindow.xaml",
               "RelativeDocumentMoniker": "NitroShell\\MainWindow.xaml",
-              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\MainWindow.xaml",
+              "ToolTip": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\MainWindow.xaml",
               "RelativeToolTip": "NitroShell\\MainWindow.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-09-15T14:56:48.316Z",
               "EditorCaption": ""

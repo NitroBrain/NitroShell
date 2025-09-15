@@ -2945,11 +2945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\NitroShell.csproj",
+      "projectUniqueName": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\NitroShell.csproj",
       "projectName": "NitroShell",
-      "projectPath": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\NitroShell.csproj",
+      "projectPath": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\NitroShell.csproj",
       "packagesPath": "C:\\Users\\ACER_NITRO\\.nuget\\packages\\",
-      "outputPath": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell\\NitroShell\\NitroShell\\obj\\",
+      "outputPath": "D:\\Usmonov Shohruxmirozs Projects\\C#\\Projects\\NitroShell1\\NitroShell\\NitroShell\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programms\\VS BASIC\\Shared\\NuGetPackages"
