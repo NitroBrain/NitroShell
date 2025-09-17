@@ -23,7 +23,7 @@
             <TextBlock x:ConnectionId='3' x:Name="OutputBox"
                        Foreground="#FC4850"
                        FontFamily="Consolas"
-                       TextWrapping="Wrap"/>
+                       TextWrapping="Wrap" />
         </ScrollViewer>
 
         <TextBox x:ConnectionId='2' x:Name="InputBox"
@@ -31,7 +31,7 @@
                  Background="Black"
                  Foreground="White"
                  FontFamily="Consolas"
-                                           />
+                                            />
     </Grid>
 
 

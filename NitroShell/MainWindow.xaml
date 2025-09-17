@@ -20,20 +20,10 @@
         </Grid.RowDefinitions>
 
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto">
-            <TextBlock x:Name="OutputBox"
-                       Foreground="#FC4850"
-                       FontFamily="Consolas"
-                       TextWrapping="Wrap"
-                       Padding="10"/>
+            <TextBlock x:Name="OutputBox" Foreground="#FC4850" FontFamily="Consolas" TextWrapping="Wrap" />
         </ScrollViewer>
 
-        <TextBox x:Name="InputBox"
-                 Grid.Row="1"
-                 Background="Black"
-                 Foreground="White"
-                 FontFamily="Consolas"
-                 KeyDown="InputBox_KeyDown"/>
+        <TextBox x:Name="InputBox" Grid.Row="1" Background="Black" Foreground="White" FontFamily="Consolas" KeyDown="InputBox_KeyDown" />
     </Grid>
-
 
 </Window>

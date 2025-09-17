@@ -10,28 +10,28 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>b138c5d1-7281-48a3-9327-2b8325a95078</PackageIdentityName>
     <PackageIdentityPublisher>CN=ACER_NITRO</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\SDKs\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NitroShell.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NitroShell.runtimeconfig.json">
       <PackagePath>NitroShell.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>NitroShell.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NitroShell.dll">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NitroShell.dll">
       <PackagePath>NitroShell.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
@@ -685,34 +685,34 @@
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.3179.45\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NitroShell.deps.json">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NitroShell.deps.json">
       <PackagePath>NitroShell.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.3179.45\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell1\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
