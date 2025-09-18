@@ -20,20 +20,11 @@
         </Grid.RowDefinitions>
 
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto">
-            <TextBlock x:ConnectionId='3' x:Name="OutputBox"
-                       Foreground="#FC4850"
-                       FontFamily="Consolas"
-                       TextWrapping="Wrap" />
+            <TextBlock x:ConnectionId='3' x:Name="OutputBox" Foreground="#FC4850" FontFamily="Consolas" TextWrapping="Wrap" />
         </ScrollViewer>
 
-        <TextBox x:ConnectionId='2' x:Name="InputBox"
-                 Grid.Row="1"
-                 Background="Black"
-                 Foreground="White"
-                 FontFamily="Consolas"
-                                            />
+        <TextBox x:ConnectionId='2' x:Name="InputBox" Grid.Row="1" Background="Black" Foreground="White" FontFamily="Consolas"                            />
     </Grid>
-
 
 </Window>
 

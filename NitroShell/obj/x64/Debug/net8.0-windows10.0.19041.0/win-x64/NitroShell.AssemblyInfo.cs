@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NitroShell")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93328ae15f416704e3474f81cc2601c742bf83a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cc2b739cda24439387d9aaa7e1ec76cfb21bb74")]
 [assembly: System.Reflection.AssemblyProductAttribute("NitroShell")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NitroShell")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

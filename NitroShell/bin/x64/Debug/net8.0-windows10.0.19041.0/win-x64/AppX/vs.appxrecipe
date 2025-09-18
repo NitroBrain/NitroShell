@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-09-16T05:25:23.416</Modified>
+      <Modified>2025-09-18T07:02:30.818</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -39,11 +39,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>NitroShell.exe</PackagePath>
-      <Modified>2025-09-16T05:25:23.180</Modified>
+      <Modified>2025-09-18T07:02:30.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NitroShell.dll">
       <PackagePath>NitroShell.dll</PackagePath>
-      <Modified>2025-09-16T05:25:23.177</Modified>
+      <Modified>2025-09-18T07:02:30.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -951,7 +951,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Usmonov Shohruxmirozs Projects\C#\Projects\NitroShell\NitroShell\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-16T05:25:23.236</Modified>
+      <Modified>2025-09-18T06:50:32.090</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
