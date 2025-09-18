@@ -1,3 +1,3 @@
 ﻿# NitroShell
 
-<img width="1430" height="785" alt="image" src="https://github.com/user-attachments/assets/84f116f0-7365-449d-8931-2a25195d4344" />
+<img width="1432" height="786" alt="image" src="https://github.com/user-attachments/assets/c1152a3d-37f2-4e61-a776-1390d0812641" />
