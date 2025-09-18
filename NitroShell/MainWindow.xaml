@@ -12,7 +12,7 @@
         <MicaBackdrop />
     </Window.SystemBackdrop>
 
-    <Grid Background="#0D0D0D">
+    <Grid Background="Transparent">
         <Grid.Resources>
             <Style x:Key="BorderlessTextBoxStyle" TargetType="TextBox">
                 <Setter Property="Template">
@@ -40,7 +40,7 @@
         <ScrollViewer Grid.Row="0"
                       VerticalScrollBarVisibility="Auto"
                       Padding="16"
-                      Background="#0D0D0D">
+                      Background="Transparent">
             <TextBlock x:Name="OutputBox"
                        Foreground="#FC4850"
                        FontFamily="Consolas"
