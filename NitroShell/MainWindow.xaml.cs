@@ -21,6 +21,9 @@ namespace NitroShell
         private string sessionBaseDir = "";
         private string sessionPrefixDirWithSep = "";
 
+        private readonly List<string> commandHistory = new();
+        private int historyIndex = -1;
+
         public MainWindow()
         {
             this.InitializeComponent();
@@ -49,12 +52,13 @@ namespace NitroShell
             string version = Environment.OSVersion.VersionString;
             string header =
 $@"
-    _   ________________  ____  _____ __  __________    __ 
-   / | / /  _/_  __/ __ \/ __ \/ ___// / / / ____/ /   / / 
-  /  |/ // /  / / / /_/ / / / /\__ \/ /_/ / __/ / /   / /  
- / /|  // /  / / / _, _/ /_/ /___/ / __  / /___/ /___/ /___
-/_/ |_/___/ /_/ /_/ |_|\____//____/_/ /_/_____/_____/_____/
-                                                           
+███╗   ██╗██╗████████╗██████╗  ██████╗ ███████╗██╗  ██╗███████╗██╗     ██╗     
+████╗  ██║██║╚══██╔══╝██╔══██╗██╔═══██╗██╔════╝██║  ██║██╔════╝██║     ██║     
+██╔██╗ ██║██║   ██║   ██████╔╝██║   ██║███████╗███████║█████╗  ██║     ██║     
+██║╚██╗██║██║   ██║   ██╔══██╗██║   ██║╚════██║██╔══██║██╔══╝  ██║     ██║     
+██║ ╚████║██║   ██║   ██║  ██║╚██████╔╝███████║██║  ██║███████╗███████╗███████╗
+╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
+                                                             NitroShell v1.0.0
 Microsoft Windows [Version {version}]
 (c) NitroBrain Corporation. All rights reserved.
 
@@ -67,7 +71,13 @@ Microsoft Windows [Version {version}]
         {
             if (e.Key == Windows.System.VirtualKey.Enter)
             {
-                string command = InputBox.Text;
+                string command = InputBox.Text.Trim();
+                if (!string.IsNullOrEmpty(command))
+                {
+                    commandHistory.Add(command);
+                    historyIndex = commandHistory.Count;
+                }
+
                 InputBox.Text = "";
                 RunCommand(command);
                 ResetCompletionSession();
@@ -75,6 +85,31 @@ Microsoft Windows [Version {version}]
             else if (e.Key == Windows.System.VirtualKey.Tab)
             {
                 HandleTabCompletion();
+                e.Handled = true;
+            }
+            else if (e.Key == Windows.System.VirtualKey.Up)
+            {
+                if (commandHistory.Count > 0 && historyIndex > 0)
+                {
+                    historyIndex--;
+                    InputBox.Text = commandHistory[historyIndex];
+                    InputBox.SelectionStart = InputBox.Text.Length;
+                }
+                e.Handled = true;
+            }
+            else if (e.Key == Windows.System.VirtualKey.Down)
+            {
+                if (commandHistory.Count > 0 && historyIndex < commandHistory.Count - 1)
+                {
+                    historyIndex++;
+                    InputBox.Text = commandHistory[historyIndex];
+                }
+                else
+                {
+                    historyIndex = commandHistory.Count;
+                    InputBox.Text = "";
+                }
+                InputBox.SelectionStart = InputBox.Text.Length;
                 e.Handled = true;
             }
             else
@@ -161,7 +196,6 @@ Microsoft Windows [Version {version}]
                 if (completionCandidates.Count == 0)
                     return;
 
-                // start session
                 completionSessionActive = true;
                 sessionBaseDir = baseDir;
                 sessionPrefixDirWithSep = prefixDirWithSep;
